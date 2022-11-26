@@ -5,12 +5,12 @@
 class Macmode < Formula
   desc ""
   homepage "https://github.com/lkyuchukov/macmode"
-  version "0.1.4"
+  version "0.1.5"
   depends_on :macos
 
   on_macos do
-    url "https://github.com/lkyuchukov/macmode/releases/download/v0.1.4/macmode_0.1.4_darwin_all.tar.gz"
-    sha256 "02e47e72114116a77017be9b315195227f8dd2af295b7910b37c29e8a2bf2d53"
+    url "https://github.com/lkyuchukov/macmode/releases/download/v0.1.5/macmode_0.1.5_darwin_all.tar.gz"
+    sha256 "c11ddb3e3fae3e0dd6af38086572d4935b35a12a1797fe5a28b1fb5b955d9d3c"
 
     def install
       bin.install "macmode"
